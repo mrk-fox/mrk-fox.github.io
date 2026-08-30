@@ -1,0 +1,225 @@
+:root {
+  --left-button-color: #ff4d4d;
+  --right-button-color: #ff4d4d;
+  --left-button-text-color: #000000;
+  --right-button-text-color: #000000;
+  --right-button-frame-color: #000000;
+  --left-button-frame-color: #000000;
+  --background-pic: url("assets/bg.jpg");
+  --txt-color:#dff2ff;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+    background-image: var(--background-pic);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#title {
+    position: absolute;
+    font-family: Autumn Crush;
+    font-size: 75;
+    
+    top: 7vh;
+    left: 4vw;
+}
+
+h2 {
+  font-family: Autumn Crush;
+  font-size: 75;
+}
+
+.playfair-display-font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size:smaller;
+}
+
+.gradient-title {
+  background: linear-gradient(90deg, #000000a4, #5c5c5c2f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@font-face {
+  font-family: "Autumn Crush";
+  src: url("fonts/Autumn Crush.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* button left */
+.dialouge-button-left{
+  background-color: var(--left-button-color);
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: var(--left-button-text-color);
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.dialouge-button-left:focus {
+  outline: 0;
+}
+
+.dialouge-button-left:after {
+  content: '';
+  position: absolute;
+  border: 1px solid var(--left-button-frame-color);
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+  border-radius: 12px;
+}
+
+.dialouge-button-left:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .dialouge-button-left {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+
+
+/* dialouge button right */
+
+.dialouge-button-right{
+  background-color: var(--right-button-color);
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: var(--right-button-text-color);
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.dialouge-button-right:focus {
+  outline: 0;
+}
+
+.dialouge-button-right:after {
+  content: '';
+  position: absolute;
+  border: 1px solid var(--right-button-frame-color);
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+  border-radius: 12px;
+}
+
+.dialouge-button-right:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .dialouge-button-right {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+
+.dialouge-field {
+  position: absolute;
+  bottom: 15vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7vh;
+}
+
+.questtext {
+  text-align: center;
+  color:#dff2ff;
+  font-size: 30;
+  width: 70vw;
+
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  padding: 20px;
+
+}
+
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.txt-color{
+  color: var(--txt-color);
+}
