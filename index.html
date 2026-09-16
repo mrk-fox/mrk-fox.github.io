@@ -1,15 +1,21 @@
-<!doctype html>
-<html lang="de">
-<head>
-  <meta charset="utf-8">
-  <title>Weiterleitung</title>
-  <script>
-    // URL
-    const ziel = "https://example.com";
-    window.location.replace(ziel);
-  </script>
-</head>
-<body>
-  <p>Sie werden weitergeleitet…</p>
-</body>
+<html>
+    <head>
+        <title>Fox's Burrow</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="title" class="gradient-title">Welcome to the Fox's Burrow...</div>
+        <div class="dialouge-field">
+            <div class="questtext playfair-display-font txt-color" id="dialouge-txt">Hey there! Glad you found it here. Do you want some tea?</div>
+            <div class="button-container">
+                <button id="left-button" class="dialouge-button-left" role="button">Button Left</button>
+                <button id="right-button" class="dialouge-button-right" role="button">Button Right</button>
+            </div>
+        </div>
+        <div class="bottom-right">Picture by Mark Scharonow. 2026 &copy;</div>
+    </body>
 </html>

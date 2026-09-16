@@ -1,0 +1,108 @@
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  font-family: Consolas, "Courier New", monospace;
+  color: #1a1a1a;
+  background: #fdfdfc;
+  line-height: 1.7;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 3rem;
+  font-size: 0.85rem;
+  color: #767676;
+  text-decoration: none;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+#post-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+#post-date {
+  font-size: 0.8rem;
+  color: #999999;
+  margin-bottom: 3rem;
+}
+
+/* Everything below styles the HTML that marked generates from the markdown file */
+
+#post h1,
+#post h2,
+#post h3 {
+  font-weight: 600;
+  margin: 2.5rem 0 1rem;
+}
+
+#post h1 {
+  font-size: 1.25rem;
+}
+
+#post h2 {
+  font-size: 1.1rem;
+}
+
+#post h3 {
+  font-size: 1rem;
+}
+
+#post p {
+  margin: 1rem 0;
+}
+
+#post a {
+  color: #1a1a1a;
+}
+
+#post img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem 0;
+}
+
+#post ul,
+#post ol {
+  padding-left: 1.5rem;
+}
+
+#post li {
+  margin: 0.4rem 0;
+}
+
+#post blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid #eaeaea;
+  color: #767676;
+}
+
+#post code {
+  background: #f2f2f0;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.9em;
+}
+
+#post pre {
+  background: #f2f2f0;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+#post pre code {
+  background: none;
+  padding: 0;
+}
+
+#post hr {
+  border: none;
+  border-top: 1px solid #eaeaea;
+  margin: 2.5rem 0;
+}
