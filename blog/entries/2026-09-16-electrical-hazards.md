@@ -1,0 +1,6 @@
+# Creating electrical hazards out of thin air :)
+
+We live in a world full of teddy bears and roses, where Claude is literally making my programming task 5 minutes instead of 5 hours (e.g.: commit 381fe52) while giving me slight depression due to making me realize that a simple algorithm, an asset of ones and zeroes can make code work better than me - and I started coding a few years before AI was even a topic everyone was talking a minmum of twice a day about. Well, but listen up, lads and gents - you know what AI cant? It cant europify a Chinese GaN charger lacking even the basic CE certification by using obscure wiring methods.
+So, first of all, I found myself in a misery this evening when noticing that my laptop is running low while simultaneously realizing that I forgot my charger at school (Well done, Mark!). Upon getting home I also remembered that my first lesson on the next day will be informatics, which implies using a personal computer (Who would've thought). 
+
+So, I started thinking about other possibilities to get some juice into my device to get schooled properly on the next day. An then I remembered! I had somewhere a nice Chinese charger
