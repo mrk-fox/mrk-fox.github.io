@@ -19,7 +19,7 @@ document.getElementById("right-button").addEventListener("click", function () {
     document.documentElement.style.setProperty("--right-button-frame-color", "#e7e7e7");
     document.documentElement.style.setProperty("--txt-color", "#000000");
     document.getElementById("title").textContent = "";
-    document.getElementById("dialouge-txt").textContent = "Here you go, want breakfast too? I brought some along.";
+    document.getElementById("dialouge-txt").textContent = "Here you go, want breakfast too? I have brought some along.";
     document.getElementById("right-button").textContent = "I'd take some if that's alright!";
     document.getElementById("left-button").textContent = "Noo, I'm not hungry. Thank you anyway!";
 
