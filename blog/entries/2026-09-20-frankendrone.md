@@ -1,4 +1,4 @@
-# Frankendrone and burning electronics
+# Frankendrone and burned electronics
 
 As a person who started with programming websites in HTML and CSS, malware in batch and snake games in python the switch to building electronics is a mindbreaker. I'd say software development is very ADHD friendly as you can just bruteforce thing by trying again and again. A mistake means just a rerun, while in electronics it means $$$ burning away. Today, I've burned a few bucks more than I wanted, aka more than 0. A while ago I've found an HDSP2503 display
 
