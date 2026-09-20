@@ -19,8 +19,8 @@ The funny thing can now fly and I will soon post a video of me flying it.
 
 ## Future projects
 
-Okay, enough of today. Let it all be memories. What really matters is the future. We all know that the future of the German trains system (aka the DB) wont be brighter than now. In other words very dim and never on time. To track this wonderful constant in our lives precisely, I do plan on programming a website/system tracking the delays on certain routes and reliably calculating the rate of delay and more mathematical ~~madness~~ nerdness visualizing it in a dashboard. Aside from designing and LED matrix for train departure information @ home.
+Okay, enough of today. Let it all be memories. What really matters is the future. We all know that the future of the German train system (aka the DB) wont be brighter than now. In other words very dim and never on time. To track this wonderful constant in our lives precisely, I do plan on programming a website/system tracking the delays on certain routes and reliably calculating the rate of delay and more mathematical ~~madness~~ nerdness visualizing it in a dashboard. Additionally, I plan to design an LED matrix for train departure information @ home.
 
-Also, I will soon design and produce an (HF) devboard in a square format. So, more electronics inbound. Aside from that I also have some Atmel ATtiny85's lying around... but that's a story for another blogpost.
+Also, I will soon design and produce a (HF) devboard in a square format. So, more electronics inbound. Aside from that I also have some Atmel ATtiny85's lying around... but that's a story for another blogpost.
 
 P.S.: I think about adding an E-Mail subscription system to this blog website running on my server. I want YOU to read my future blogs MUAHAHAHAHA
