@@ -6,5 +6,13 @@
     "preview": "How I europified a Chinese wallplug.",
     "hasThumbnail": true,
     "thumbnailPath": "entries/assets/1789635801211-600x600.png"
+  },
+  {
+    "datetime": "2026-09-20T22:16:00",
+    "title": "Frankendrone and burned electronics",
+    "file": "2026-09-20-frankendrone.md",
+    "preview": "Prototyping electronics is ragebait and I fixed an FPV drone + yap about future projects.",
+    "hasThumbnail": true,
+    "thumbnailPath": "entries/assets/1000129134-600x600.png"
   }
 ]
