@@ -1,0 +1,20 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+img.shield {
+  width: auto;
+  height: auto;
+  max-width: none;
+}
+
+.image-row {
+    display: flex;
+    gap: 10px;
+}
+
+.image-row a {
+  width: 100%;
+  height: auto;
+}
