@@ -1,13 +1,13 @@
 <html>
     <head>
         <title>Fox Burrow</title>
+        <style>body { visibility: hidden; }</style>
         <link rel="stylesheet" href="main.css">
         <script src="main.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
         <link rel="preload" as="image" href="assets/bg.jpg" fetchpriority="high">
-        <link rel="preload" as="image" href="assets/tea.jpg" fetchpriority="high">
     </head>
     <body>
         <div id="title" class="gradient-title">Welcome to the Fox' Burrow...</div>
@@ -19,5 +19,12 @@
             </div>
         </div>
         <div class="bottom-right">Picture by Mark Scharonow. 2026 &copy;</div>
+        
+        <script>
+          var show = () => document.body.style.visibility = 'visible';
+          var img = new Image();
+          img.onload = img.onerror = show;
+          img.src = 'assets/bg.jpg';
+        </script>
     </body>
 </html>
