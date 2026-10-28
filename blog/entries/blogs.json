@@ -15,4 +15,12 @@
     "hasThumbnail": true,
     "thumbnailPath": "entries/assets/1000129134-600x600.jpg"
   }
+  {
+    "datetime": "2026-10-28T13:50:00",
+    "title": "Trying and failing to fix the Røde NTG 2",
+    "file": "2026-10-28-rode-ntg-2.md",
+    "preview": "A few months ago a fellow guy gifted me a broken Røde NTG 2...",
+    "hasThumbnail": true,
+    "thumbnailPath": "entries/assets/ntg1-600x600.png"
+  }
 ]
