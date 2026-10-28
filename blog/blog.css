@@ -77,3 +77,8 @@ h1 {
   font-size: 0.85rem;
   color: #767676;
 }
+
+.center {
+  display: grid;
+  place-items: center;  
+}
